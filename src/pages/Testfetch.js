@@ -69,7 +69,7 @@ const [optionData, setOptionData] = useState({
         fetch('https://smart-farm-backend.vercel.app/api/data-logs', {
             method:"GET",
             headers: {
-            'x-access-token':'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzM2U5ZjU2ZTFiMDczY2Y0OGQ5ZjgxYyIsImlhdCI6MTY2Njc1MjY2NSwiZXhwIjoxNjY2ODM5MDY1fQ.TQ8R4Twf37vNdDpv5mXCTZiWoxTQQmHpH5JlVev_sN8' , 
+            'x-access-token':'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzM2U5ZjU2ZTFiMDczY2Y0OGQ5ZjgxYyIsImlhdCI6MTY2NjgzODIxMywiZXhwIjoxNjY2OTI0NjEzfQ.6PwgceAoNqCPoWv5pZl526tEjNMV6puX3QpnPCH8CUQ' , 
             'Content-Type':'application/json'}
         })
             .then(response => response.json())
