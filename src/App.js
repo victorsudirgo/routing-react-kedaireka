@@ -6,7 +6,10 @@ import Dashboard from './pages/Dashboard';
 import Gateway from './pages/Gateway';
 import Token from './pages/Token';
 import AddUser from './pages/AddUser';
-import Visualize from './pages/Visualize';
+import Visualize2 from './pages/Visualize2';
+import Testfetch from './pages/Testfetch';
+import Testdropdown from './pages/Testdropdown';
+import AddProject from './pages/AddProject';
 
 
 const App = () => {
@@ -19,7 +22,10 @@ const App = () => {
           <Route path='/gateway' element={<Gateway/>}/>
           <Route path='/token' element={<Token/>}/>
           <Route path='/adduser' element={<AddUser/>}/>
-          <Route path='/visualize' element={<Visualize/>}/>
+          <Route path='/visualize' element={<Visualize2/>}/>
+          <Route path='/testfetch' element={<Testfetch/>}/>
+          <Route path='/dropdown' element={<Testdropdown/>}/>
+          <Route path='/addproject' element={<AddProject/>}/>
         </Routes>
       </Router>
     </>
